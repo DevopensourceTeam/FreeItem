@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Devopensource_FreeItem>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Devopensource_FreeItem>
+    </modules>
+</config>

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <freeitem translate="label" module="freeitem">
+            <label>Free Item</label>
+            <tab>devopsall</tab>
+            <show_in_default>1</show_in_default>
+            <show_in_website>0</show_in_website>
+            <show_in_store>0</show_in_store>
+            <sort_order>200</sort_order>
+            <groups>
+                <general>
+                    <label>General</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>50</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                       <product_sku translate="label">
+			                <label>Product SKU</label>
+                            <frontend_type>text</frontend_type>
+		                    <sort_order>2</sort_order>
+		                    <show_in_default>1</show_in_default>
+		                    <show_in_website>1</show_in_website>
+		                    <show_in_store>1</show_in_store>
+                       </product_sku>
+					   <total_purchase translate="label">
+                        	<label>Total Purchase</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+					   </total_purchase>
+					   <message_cart translate="label">
+			                <label>Message in cart</label>
+                            <frontend_type>textarea</frontend_type>
+		                    <sort_order>4</sort_order>
+		                    <show_in_default>1</show_in_default>
+		                    <show_in_website>1</show_in_website>
+		                    <show_in_store>1</show_in_store>
+                       </message_cart>
+                       <attr_sku translate="label">
+                        	<label>Attribute sku</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+					   </attr_sku>
+                    </fields>
+                </general>
+            </groups>
+        </freeitem>
+    </sections>
+</config>
