@@ -1,4 +1,11 @@
+# Xml modules
 Devopensource_FreeItem.xml	app/etc/modules/Devopensource_FreeItem.xml
 Devopensource_All.xml	app/etc/modules/Devopensource_All.xml
+
+# Folders for modules All and Freeitem
 code_freeitem app/code/local/Devopensource/FreeItem/
 code_all app/code/local/Devopensource/All/
+
+# Clean cache and session
+@shell rm -rf $PROJECT/var/cache/*
+@shell rm -rf $PROJECT/var/session/*
