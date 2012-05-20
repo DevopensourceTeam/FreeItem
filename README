@@ -17,13 +17,13 @@ Requisitos:
 
 Características:
 	- Productos configurables y simples.
-	- Añade el producto de regalo cuando la cantidad del carrito es superior a la cantidad
+	- Añade el producto de gratis cuando la cantidad del carrito es superior a la cantidad
 	indicada en la configuración del módulo en el backend.
-	- Elimina del carrito el producto de regalo si la cantidad es inferior a la cantidad
+	- Elimina del carrito el producto de gratis si la cantidad es inferior a la cantidad
 	indicada en la configuración del módulo en el backend.
-	- Cantidad del producto de regalo limitada a 1.
-	- Precio 0€ para producto regalo.
-	- Al actualizar carrito añade el producto de regalo si la cantidad es superior a la cantidad
+	- Cantidad del producto de gratis limitada a 1.
+	- Precio 0€ para producto gratis.
+	- Al actualizar carrito añade el producto de gratis si la cantidad es superior a la cantidad
 	indicada en la configuración del módulo en el backend.
 
 Compatibilidad:
