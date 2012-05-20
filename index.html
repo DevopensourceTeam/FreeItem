@@ -30,12 +30,13 @@
       <section id="main_content">
         <h3>Información:</h3>
 
-<p>El módulo free item en estado <strong>BETA</strong> añade un producto simple o configurable al carrito cuando la cantidad del carrito es superior a la indicada.</p>
+<p>El módulo free item en estado <strong>BETA</strong> añade un producto gratis simple o configurable al carrito cuando la cantidad del carrito es superior a la indicada.</p>
 <h3>Roadmap:</h3>
 <ol>
   <li>Lista de seleccion de los simples de un configurable en el carrito. (Pendiente)</li>
   <li>Añadir funcionalidad tipos de producto agrupados y descargables. (Pendiente)</li>
-  </ol>
+  <li>Eliminar campo "Attribute sku" de la configuración del módulo y recojerlo mediante código. (Pendiente)</li>
+</ol>
 <h3>Requisitos:</h3>
 
 <p>
@@ -53,13 +54,13 @@ $ modman clone git@github.com:DevopensourceTeam/FreeItem.git
 <p>
   <ul>
     <li>Productos configurables y simples.</li>
-    <li>Añade el producto de regalo cuando la cantidad del carrito es superior a la cantidad
+    <li>Añade el producto de gratis cuando la cantidad del carrito es superior a la cantidad
     indicada en la configuración del módulo en el backend.</li>
-    <li>Elimina del carrito el producto de regalo si la cantidad es inferior a la cantidad
+    <li>Elimina del carrito el producto de gratis si la cantidad es inferior a la cantidad
     indicada en la configuración del módulo en el backend.</li>
-    <li>Cantidad del producto de regalo limitada a 1.</li>
-    <li>Precio 0€ para producto regalo.</li>
-    <li>Al actualizar carrito añade el producto de regalo si la cantidad es superior a la cantidad
+    <li>Cantidad del producto gratis limitada a 1.</li>
+    <li>Precio 0€ para producto gratis.</li>
+    <li>Al actualizar carrito añade el producto de gratis si la cantidad es superior a la cantidad
     indicada en la configuración del módulo en el backend.</li>
 
   </ul>
