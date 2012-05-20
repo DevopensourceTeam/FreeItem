@@ -1,5 +1,10 @@
 <?php
-
+/*
+ * @category    Devopensource
+ * @package		Devopensource_Freeitem
+ * @copyright   Copyright (c) 2012 Devopensource
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
 class Devopensource_FreeItem_Model_Observer 
 {
 
@@ -66,9 +71,8 @@ class Devopensource_FreeItem_Model_Observer
 							
 							
 							//parametros si el prod es un configurable
-						
-
 							$cart->addProduct($product, $params);
+							
                         }else{
                                 $cart->addProduct($product,array('qty'=>1));
                             //Mage::getSingleton('checkout/session')->setCartWasUpdated(true);	               			               		
@@ -107,20 +111,6 @@ class Devopensource_FreeItem_Model_Observer
                 $product->load($id);
 				
 				$attrName = Mage::getStoreConfig('freeitem/general/attr_sku');
-				
-				
-				/**/
-				
-							
-				//Zend_Debug::dump($attrDesign);
-				
-				/*Zend_Debug::dump($attrDesign->getFrontend()->getValue($product));
-				
-				Zend_Debug::dump();
-
-				exit();*/
-
-				/**/	
 				
 	    	if($grand_total >= $total_purchase)
 	        {
