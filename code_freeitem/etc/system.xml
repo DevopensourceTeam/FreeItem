@@ -18,12 +18,13 @@
                     <show_in_store>1</show_in_store>
                     <fields>
                        <product_sku translate="label">
-			                <label>Product SKU</label>
+			                <label>Product sku</label>
                             <frontend_type>text</frontend_type>
 		                    <sort_order>2</sort_order>
 		                    <show_in_default>1</show_in_default>
 		                    <show_in_website>1</show_in_website>
 		                    <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Product sku free to add to cart.]]></comment>
                        </product_sku>
 					   <total_purchase translate="label">
                         	<label>Total Purchase</label>
@@ -32,6 +33,7 @@
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Total amount of the cart to the addition of the free product.]]></comment>
 					   </total_purchase>
                        <attr_sku translate="label">
                         	<label>Attribute sku</label>
@@ -40,6 +42,7 @@
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
+                            <comment><![CDATA[If a configurable product.]]></comment>
 					   </attr_sku>
                     </fields>
                 </general>
