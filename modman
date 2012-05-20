@@ -1,2 +1,4 @@
 bootstrap.xml   app/etc/modules/Devopensource_FreeItem.xml
+bootstrap_all.xml app/etc/modules/Devopensource_All.xml
 code            app/code/local/Devopensource/FreeItem/
+code_all        app/code/local/Devopensource/All/
