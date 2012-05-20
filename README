@@ -1,1 +1,26 @@
-MODULE FREE ITEM
+MODULO FREE ITEM
+
+Autores: Ivan Oliver Montes Guevara  twitter: @devopensource
+		 Jose Ruzafa Sierra  twitter: @jruzafa
+Sitio web: http://www.devopensource.com/
+
+Información:
+
+	El modulo free item añade un producto simple o configurable al carrito cuando la cantidad del carrito es superior a la indicada.
+
+Características:
+	- Productos configurables y simples.
+	- Añade el producto de regalo cuando la cantidad del carrito es superior a la cantidad
+	indicada en la configuración del modulo en el backend.
+	- Elimina del carrito el producto de regalo si la cantidad es inferior a la cantidad
+	indicada en la configuración del modulo en el backend.
+	- Cantidad del producto de regalo limitada a 1.
+	- Precio 0€ para producto regalo.
+	- Al actualizar carrito añade el producto de regalo si la cantidad es superior a la cantidad
+	indicada en la configuración del modulo en el backend.
+
+Compatibilidad:
+	Magento CE 1.4 - 1.6
+
+Contacto:
+	info@devopensource.com
