@@ -1,0 +1,65 @@
+<!--
+/*
+ * @category    Devopensource
+ * @package     Devopensource_Freeitem
+ * @copyright   Copyright (c) 2012 Devopensource
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Devopensource_FreeItem>
+			<version>1.0.0</version>
+			<depends>
+				<!-- no dependencies -->
+			</depends>
+		</Devopensource_FreeItem>
+	</modules>
+	<global>
+		<helpers>
+			<freeitem>
+				<class>Devopensource_FreeItem_Helper</class>
+			</freeitem>
+		</helpers>
+		<models>
+			<freeitem>
+				<class>Devopensource_FreeItem_Model</class>
+			</freeitem>
+		</models>
+		<blocks>
+			<freeitem>
+				<class>Devopensource_FreeItem_Block</class>
+			</freeitem>
+		</blocks>
+		<events>
+			<checkout_cart_add_product_complete>
+				<observers>
+					<FreeItem_observer>
+						<type>singleton</type>
+						<class>freeitem/observer</class>
+						<method>cart_add</method>
+					</FreeItem_observer>
+				</observers>
+			</checkout_cart_add_product_complete>
+			<checkout_cart_update_items_after>
+				<observers>
+					<FreeItem_observer>
+						<type>singleton</type>
+						<class>freeitem/observer</class>
+						<method>cart_update</method>
+					</FreeItem_observer>
+				</observers>
+			</checkout_cart_update_items_after>
+			<sales_quote_remove_item>
+				<observers>
+					<FreeItem_observer>
+						<type>singleton</type>
+						<class>freeitem/observer</class>
+						<method>cart_delete</method>
+					</FreeItem_observer>
+				</observers>
+			</sales_quote_remove_item>
+		 </events>					
+	</global>
+</config>
