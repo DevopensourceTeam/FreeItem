@@ -1,19 +1,20 @@
 MODULO FREE ITEM
 
-Autores: 
-	- Oliver Montes twitter: @devopensource
-	- Jose Ruzafa Sierra twitter: @jruzafa
+Autores:
+	- Oliver Montes @devopensource
+	- Jose Ruzafa Sierra @jruzafa
 
 Sitio web: http://www.devopensource.com/
+Web modulo: http://devopensourceteam.github.com/FreeItem/
 
 Información:
 
 	El módulo free item añade un producto simple o configurable al carrito cuando la cantidad del carrito es superior a la indicada.
 
 Requisitos:
-	1º modman instalado. -> https://github.com/colinmollenhour/modman
-	2º modman init -> en raiz del magento donde queremos instalar el módulo.
-	3º modman clone git@github.com:DevopensourceTeam/FreeItem.git
+	1º modgit instalado: https://github.com/jreinke/modgit
+	2º modgit init
+	3º modgit clone devopensource_freeitem git@github.com:DevopensourceTeam/FreeItem.git
 
 Características:
 	- Productos configurables y simples.
